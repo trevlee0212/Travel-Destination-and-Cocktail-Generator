@@ -1,0 +1,243 @@
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 180px;
+    height: 180px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #91fdb7 100%);    
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    transition: .4s;
+    border: none;
+    font-size: 30px;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    
+  }
+  
+  .btn img{
+    object-fit: cover; 
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 10%;
+    margin-right: 3%;
+  }
+  .btn:hover{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.28);
+      -webkit-transform: translateY(5px);
+      -ms-transform: translateY(5px);
+      transform: translateY(5px);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500;600&family=Concert+One&family=Fuzzy+Bubbles:wght@700&display=swap');
+  
+  .bgimg {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      min-width: auto;
+      min-height: auto;
+      z-index: -1;
+  }
+  .cloud-text {
+      font-family: 'Concert One', cursive;
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;	
+      background-color: white;
+      background-size: 50%;
+      background-attachment: unset;
+      background-position: 0%;
+      margin-top: 10%;
+    padding-top: 10px;
+      margin-bottom: 4%;
+      font-size: 70px;
+      text-align: center;
+  }
+  
+  .travel-main-content{
+    font-family:  'Advent Pro', sans-serif;
+    color: black;
+    font-size: 1.302vw;
+    text-align: center;
+  }
+  .sub{font-size: 1vw;
+    color: rgba(0, 0, 0, 0.651);
+  }
+  
+  
+  
+  /* CSS */
+  .button-13 {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family:  'Advent Pro', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+  }
+  
+  .button-13:hover {
+    background-color: #f7fafa;
+  }
+  
+  .button-13:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+  
+  .action_btn{
+    display: inline-block;
+    margin-right: 0.25%;
+  }
+  .action_btn2{
+    display: inline-block;
+    margin-left: 0.25%;
+  }
+  
+  .cocktail body{
+    background-color: #87cefa;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    height: 100%;
+    width: 100%
+  }
+  
+  .about-page {
+    background-color:#87cefa;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .cloud-drink {
+      font-family: 'Concert One', cursive;
+      -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;	
+      background-color: white;
+      padding-top: 10%;
+      margin-bottom: 4%;
+      font-size: 70px;
+      text-align: center;
+  }
+  
+  
+  .btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #f9a9ae;
+    width: 180px;
+    height: 180px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+    border: none;
+  }
+  
+  .btn1:active{
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.32);
+    background-image: -webkit-linear-gradient(#fed6e3 0%, #ffcfcf 100%);
+    background-image: linear-gradient(#fed6e3 0%, #ffcfcf 100%);
+  }
+
+  .place-main{
+    text-align: center;
+  }
+  
+
+    
+  .food-main-topic{
+    font-family:  'Advent Pro', sans-serif;
+    color: black;
+    margin-bottom: 2%;
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: center;
+  }
+  .food-main-content{
+    font-family:  'Advent Pro', sans-serif;
+    color: rgba(0, 0, 0, 0.829);
+    font-size: 2vw;
+    font-weight: 500;
+    text-align: center;
+  }
+.cloud-drink-true{
+  font-family: 'Concert One', cursive;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;	
+  background-color: white;
+  padding-top: 10%;
+  margin-bottom: 2%;
+  font-size: 70px;
+  text-align: center;
+}
+.food-main-ingre{
+  margin-top: 0.25%;
+  font-family:  'Advent Pro', sans-serif;
+    color: black;
+    font-size: 2.4vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.button-14 {
+  display: inline-block;
+  background-color: rgb(253, 74, 54);
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family:  'Advent Pro', sans-serif;
+  font-size: 1vw;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+  color: white;
+  margin-top: 1vw;
+}
+
+.button-14:hover {
+  background-color: #f7fafa;
+  color: black;
+}
+
+.button-14:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
